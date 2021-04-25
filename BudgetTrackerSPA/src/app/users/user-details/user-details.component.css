@@ -1,0 +1,23 @@
+.greenTable {
+    background-color: lightgreen;
+    border: 4pt;
+    border-color: black;
+    border-radius: 4pt;
+    width: 45%;
+    margin-left: 0px;
+    margin-right: auto;
+    display:inline-block;
+}
+.redTable {
+    background-color:lightcoral;
+    border: 4pt;
+    border-color: black;
+    border-radius: 4pt;
+    margin-right: 0px;
+    margin-left: auto;
+    float:right;
+    width: 45%;
+}
+.center {
+    text-align: center;
+}

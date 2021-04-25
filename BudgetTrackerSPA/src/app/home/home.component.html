@@ -1,0 +1,19 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Name</th>
+      </tr>
+    </thead>
+    <tbody >
+      <tr *ngFor="let user of users">
+        <td>{{user.id}}</td>
+        <td>
+            <a [routerLink]="['users/', user.id] ">
+                {{user.fullname}}
+            </a>
+        </td>
+      </tr>
+
+    </tbody>
+  </table>
