@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastructure.Migrations
 {
     [DbContext(typeof(BudgetTrackerDbContext))]
-    [Migration("20210424205149_initialmigration")]
-    partial class initialmigration
+    [Migration("20210425040635_finalmigration")]
+    partial class finalmigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

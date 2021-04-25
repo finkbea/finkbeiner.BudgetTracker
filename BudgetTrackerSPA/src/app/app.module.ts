@@ -7,6 +7,8 @@ import { UserDetailsComponent } from './users/user-details/user-details.componen
 import { HomeComponent } from './home/home.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {HttpClientModule} from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { UserAddComponent } from './users/user-add/user-add.component';
 
 
 @NgModule({
@@ -14,13 +16,16 @@ import {HttpClientModule} from '@angular/common/http';
     AppComponent,
     HeaderComponent,
     UserDetailsComponent,
-    HomeComponent
+    HomeComponent,
+    UserAddComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
